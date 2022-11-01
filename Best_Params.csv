@@ -11,7 +11,7 @@ DecisionTree,subjectivity,cleaned_text,"{'criterion': 'entropy', 'max_features':
 KNN,polarity,cleaned_stemmed_text,"{'leaf_size': 1, 'metric': 'cosine', 'n_neighbors': 27, 'weights': 'distance'}"
 SVM,polarity,cleaned_stemmed_text,"{'C': 1, 'degree': 0, 'gamma': 0.2, 'kernel': 'rbf'}"
 DecisionTree,polarity,cleaned_stemmed_text,"{'criterion': 'entropy', 'max_features': 'sqrt', 'splitter': 'best'}"
-KNN,polarity,cleaned_lemmatized_text,
+KNN,polarity,cleaned_lemmatized_text,"{'leaf_size': 1, 'metric': 'cosine', 'n_neighbors': 19, 'weights': 'distance'}"
 SVM,polarity,cleaned_lemmatized_text,"{'C': 1, 'degree': 1, 'gamma': 0.25, 'kernel': 'poly'}"
 DecisionTree,polarity,cleaned_lemmatized_text,"{'criterion': 'gini', 'max_features': 'sqrt', 'splitter': 'best'}"
 KNN,polarity,cleaned_text,"{'leaf_size': 1, 'metric': 'cosine', 'n_neighbors': 18, 'weights': 'uniform'}"
