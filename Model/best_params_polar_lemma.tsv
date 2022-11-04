@@ -1,4 +1,0 @@
-	model	task	input	best_params
-0	DecisionTree	polarity	cleaned_lemmatized_text	{'criterion': 'gini', 'max_features': 'log2', 'splitter': 'best'}
-1	SVM	polarity	cleaned_lemmatized_text	{'C': 1, 'degree': 0, 'gamma': 0.2, 'kernel': 'rbf'}
-2	KNN	polarity	cleaned_lemmatized_text	{'leaf_size': 1, 'metric': 'cosine', 'n_neighbors': 29, 'weights': 'uniform'}
