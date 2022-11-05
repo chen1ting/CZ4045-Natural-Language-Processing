@@ -1,3 +1,0 @@
-jupyter nbconvert --output-dir="./reqs" --to script my\ nb.ipynb
-cd reqs
-pipreqs --encoding utf-8

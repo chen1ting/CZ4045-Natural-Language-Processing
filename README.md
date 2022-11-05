@@ -17,11 +17,23 @@ All required packages should have been installed!
 
 ```
 project
-│   best_params.csv : contains all the trained parameters for symbolic AI
-│
-│   NLP frontend.ipynb : presentation for model
+│   4045-sentiment-analysis-training.ipynb : training script for models
 │   
-└───bert_subjectivity_model `trained bert model for subjectivity`
+│   frontend.ipynb : interface for trained model
+│   
+│   compiled_tweets.csv(input) : input data scraped from internet
+│
+│   dataset_transformed.csv(input) : data transformed from public datasets
+│
+│   best_params.tsv(output) : best parameters for the classifier models
+│
+│   svm_polarity_model.sav(output) : trained svm model for polarity classification
+│
+│   svm_subjectivity_model.sav(output) : trained svm model for subjectivity classification
+│
+│   model.png(output) : graphical representation of BERT model
+│   
+└───bert_polarity_model(output) : fine tuned BERT model for polarity classification
 │   │   keras_metadata.pb
 │   │   saved_model.pb
 │   │
@@ -32,7 +44,7 @@ project
 │   └───assests
 │   │   │   vocab
 │   
-└───bert_polarity_model `trained bert model for polarity`
+└───bert_subjectivity_model(output) : fine tuned BERT model for subjectivity classification
 │   │   keras_metadata.pb
 │   │   saved_model.pb
 │   │
@@ -43,11 +55,4 @@ project
 │   └───assests
 │   │   │   vocab
 │
-└───1. Dataset : contains scraping script & dataset transformation
-│   │   file011.txt
-│   │   file012.txt
-│   
-└───2. Model: contains the TRAINING process of models 
-│   │   model-training.ipynb  * note: running the training might take long time
-│   │   data_transformed.csv  * outside dataset used
-│   │   compiled_tweets.csv   * crawled dataset
+└───Dataset(folder) : contains scraping script & dataset transformation
