@@ -17,10 +17,6 @@ All required packages should have been installed!
 
 ```
 project
-│   
-│   4045-report.pdf : report for the project
-│   
-│   4045-video.mp4 : video for the project
 │
 │   4045-sentiment-analysis-training.ipynb : training script for models
 │   
