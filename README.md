@@ -17,9 +17,14 @@ All required packages should have been installed!
 
 ```
 project
+│   
+│   4045-report.pdf : report for the project
+│   
+│   4045-video.mp4 : video for the project
+│
 │   4045-sentiment-analysis-training.ipynb : training script for models
 │   
-│   frontend.ipynb : interface for trained model
+│   4045-frontend.ipynb : interface for trained model
 │   
 │   compiled_tweets.csv(input) : input data scraped from internet
 │
